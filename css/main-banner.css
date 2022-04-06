@@ -1,0 +1,41 @@
+.main-banner {
+  padding: 160px 0 105px;
+  background-color: var(--black-bg-color);
+}
+
+.main-banner__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-weight: 300;
+  font-size: 112px;
+  line-height: 120px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main-banner__title-part1 {
+  color: #fff;
+}
+
+.main-banner__title-part2 {
+  margin-left: 8rem;
+  margin-top: 1rem;
+  color: var(--red-color);
+}
+
+.main-banner__descr {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.main-banner__text {
+  max-width: 475px;
+  margin-right: 2.25rem;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 135%;
+  color: #fff;
+}
